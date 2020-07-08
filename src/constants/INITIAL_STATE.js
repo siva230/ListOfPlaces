@@ -3,6 +3,7 @@
      placeDetailsLoading: false,
      selectedPlace: {},
      selectedPlaceDetailsLoading: false,
+     favouritePlaces: [],
  }
 
  export default INITIAL_STATE;

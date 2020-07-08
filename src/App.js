@@ -13,6 +13,7 @@ import store from './store';
 import './App.css';
 import PlacesContainer from './containers/PlacesContainer';
 import PlacesDetailsContainer from './containers/PlacesDetailsContainer';
+import FavouritePlaceContainer from './containers/FavouritePlaceContainer';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route exact path="/places">
               <PlacesContainer />
+          </Route>
+          <Route exact path='/places/favouritePlaces' >
+            <FavouritePlaceContainer />
           </Route>
           <Route path="/places/:id" component={PlacesDetailsContainer} />
         </Switch>

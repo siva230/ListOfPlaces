@@ -1,4 +1,4 @@
-# Select Places (React, Redux)
+# Favourite Places(React, Redux)
 
 ### Setup
 Below are the steps to get it running.
@@ -34,3 +34,4 @@ each component is independent of each other and can be reused wherever it's requ
 ### Sample screens
 ![sample](docs/output.PNG)
 ![sample](docs/selectedPlace.PNG)
+![sample](docs/favouritePlace.PNG)

@@ -52,9 +52,6 @@ const SelectedPlace = ({
             Longitude: {selectedPlace.longitude}
             </Typography>
             <Typography gutterBottom variant="h6" component="h5">
-            Place: {selectedPlace.location}
-            </Typography>
-            <Typography gutterBottom variant="h6" component="h5">
               pincode: {selectedPlace.pincode}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">

@@ -1,9 +1,14 @@
 import get from 'lodash/get';
 
 const getPlaceDetailsSuccessReducer = (state, payload) => {
+    const data = get(payload, 'data.places', []);
+    const updatedPlaces = data.map(item => ({
+        ...item,
+        favourite: false,
+    }));
     return {
         ...state,
-        places: get(payload, 'data.places', []),
+        places: updatedPlaces,
         placeDetailsLoading: false,
     }
 }
